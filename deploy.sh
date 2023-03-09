@@ -7,5 +7,7 @@ pm2 stop CASimpleApplication
 cd CASimpleApplication/
 
 npm install
+echo $PRIVATE_KEY > privatekey.pem
+echo $SERVER > server.crt
 
 pm2 start ./bin/www --name CASimpleApplication
