@@ -11,7 +11,7 @@ workflows:
                 - main
 jobs:
   build:
-    working_directory: ~/SimpleApplication
+    working_directory: ~/CASimpleApplication
     docker:
       - image: circleci/node:10.16.3
     steps:
