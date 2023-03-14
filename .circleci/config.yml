@@ -10,7 +10,7 @@ workflows:
               only:
                 - main
       - deploy:
-          filters:
+          f.ilters:
             branches:
               only:
                 - main
